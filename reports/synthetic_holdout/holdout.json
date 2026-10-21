@@ -1,0 +1,98 @@
+{
+  "status": "RESEARCH_ONLY",
+  "sharpe": null,
+  "sortino": null,
+  "calmar": null,
+  "cagr": 0.0,
+  "max_drawdown": 0.0,
+  "max_drawdown_peak": "2023-10-21 20:00:00+00:00",
+  "max_drawdown_trough": "2023-10-21 20:00:00+00:00",
+  "longest_drawdown_bars": 0,
+  "ending_equity_multiple": 1.0,
+  "bars": 756,
+  "years": 0.3452054794520548,
+  "deflated_sharpe": null,
+  "deflated_sharpe_reason": "Requires independent market trials/effective number of research attempts; no substitute metric claimed.",
+  "fold_sharpes": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "median_fold_sharpe": null,
+  "worst_fold_sharpe": null,
+  "trials_searched_total": 0,
+  "regime_breakdown": {
+    "vol_high": "N/A (benchmark required)",
+    "vol_low": "N/A (benchmark required)",
+    "bull": "N/A (benchmark required)",
+    "bear": "N/A (benchmark required)",
+    "pre_2020": "N/A unless period covered"
+  },
+  "paper_readiness": "BLOCKED: historical PIT+funding provenance and genuine held-out market performance required",
+  "holdout_vs_dev_sharpe_ratio": null,
+  "OOS_less_than_half_IS_flag": false,
+  "label": "holdout",
+  "discovery_audit": [
+    {
+      "locked_at": "2023-10-21 20:00:00+00:00",
+      "pre_holdout_formation_only": true,
+      "lock_audit": {
+        "decision_timestamp": "2023-10-21T20:00:00+00:00",
+        "eligible_symbols": 3,
+        "adf_passed_symbols": 1,
+        "pairs_tested": 0,
+        "raw_eg_tests": 0,
+        "selected_pairs": 0
+      }
+    },
+    {
+      "decision_timestamp": "2023-10-21 20:00:00+00:00",
+      "locked_holdout_pairs": [],
+      "pairs_tested": 0,
+      "selected_pairs": 0,
+      "start": "2023-10-22 00:00:00+00:00",
+      "end_exclusive": "2023-11-21 00:00:00+00:00"
+    },
+    {
+      "decision_timestamp": "2023-11-20 20:00:00+00:00",
+      "locked_holdout_pairs": [],
+      "pairs_tested": 0,
+      "selected_pairs": 0,
+      "start": "2023-11-21 00:00:00+00:00",
+      "end_exclusive": "2023-12-21 00:00:00+00:00"
+    },
+    {
+      "decision_timestamp": "2023-12-20 20:00:00+00:00",
+      "locked_holdout_pairs": [],
+      "pairs_tested": 0,
+      "selected_pairs": 0,
+      "start": "2023-12-21 00:00:00+00:00",
+      "end_exclusive": "2024-01-20 00:00:00+00:00"
+    },
+    {
+      "decision_timestamp": "2024-01-19 20:00:00+00:00",
+      "locked_holdout_pairs": [],
+      "pairs_tested": 0,
+      "selected_pairs": 0,
+      "start": "2024-01-20 00:00:00+00:00",
+      "end_exclusive": "2024-02-19 00:00:00+00:00"
+    },
+    {
+      "decision_timestamp": "2024-02-18 20:00:00+00:00",
+      "locked_holdout_pairs": [],
+      "pairs_tested": 0,
+      "selected_pairs": 0,
+      "start": "2024-02-19 00:00:00+00:00",
+      "end_exclusive": "2024-02-25 00:00:00+00:00"
+    }
+  ],
+  "monthly_returns": {
+    "2023-10": 0.0,
+    "2023-11": 0.0,
+    "2023-12": 0.0,
+    "2024-01": 0.0,
+    "2024-02": 0.0
+  }
+}

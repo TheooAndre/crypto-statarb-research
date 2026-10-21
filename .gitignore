@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.ohlcv_cache/
+reports/*
+!reports/.gitkeep
+*.env
+*.key
+*.secret

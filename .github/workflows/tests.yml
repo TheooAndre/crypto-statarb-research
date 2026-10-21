@@ -1,0 +1,21 @@
+name: research-integrity
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install -e '.[test]'
+      - run: python -m compileall -q src
+      - run: pytest -q
+      - run: statarb demo --out reports/ci-synthetic
+      - run: python -c "import json; p=json.load(open('reports/ci-synthetic/experiment.json')); assert p['synthetic'] and not p['live_permission']"

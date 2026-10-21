@@ -1,0 +1,93 @@
+{
+  "status": "RESEARCH_ONLY",
+  "sharpe": 2.385459478572113,
+  "sortino": 4.006232962040217,
+  "calmar": 6.654079254865823,
+  "cagr": 0.05658999083963434,
+  "max_drawdown": -0.008504556178565603,
+  "max_drawdown_peak": "2023-08-08 16:00:00+00:00",
+  "max_drawdown_trough": "2023-08-09 08:00:00+00:00",
+  "longest_drawdown_bars": 342,
+  "ending_equity_multiple": 1.0173413228990933,
+  "bars": 684,
+  "years": 0.31232876712328766,
+  "deflated_sharpe": null,
+  "deflated_sharpe_reason": "Requires independent market trials/effective number of research attempts; no substitute metric claimed.",
+  "trades": 5,
+  "win_rate": 0.8,
+  "profit_factor": 32.50485521154673,
+  "avg_win_loss_ratio": 8.126213802886683,
+  "annual_turnover": 6.404933026385854,
+  "total_cost_fraction": 0.004293462789754793,
+  "total_gross_fraction": 0.021570165534868062,
+  "total_funding_fraction": 0.0,
+  "cost_drag_fraction": 0.004293462789754793,
+  "cost_drag_pct_gross_pnl": 19.904635329823652,
+  "fold_sharpes": [
+    null,
+    4.657573811249437,
+    null,
+    null
+  ],
+  "median_fold_sharpe": 4.657573811249437,
+  "worst_fold_sharpe": 4.657573811249437,
+  "trials_searched_total": 6,
+  "regime_breakdown": {
+    "vol_high": "N/A (benchmark required)",
+    "vol_low": "N/A (benchmark required)",
+    "bull": "N/A (benchmark required)",
+    "bear": "N/A (benchmark required)",
+    "pre_2020": "N/A unless period covered"
+  },
+  "paper_readiness": "BLOCKED: historical PIT+funding provenance and genuine held-out market performance required",
+  "label": "development",
+  "discovery_audit": [
+    {
+      "decision_timestamp": "2023-06-29T20:00:00+00:00",
+      "eligible_symbols": 3,
+      "adf_passed_symbols": 3,
+      "pairs_tested": 3,
+      "raw_eg_tests": 3,
+      "selected_pairs": 0,
+      "start": "2023-06-30 00:00:00+00:00",
+      "end_exclusive": "2023-07-30 00:00:00+00:00"
+    },
+    {
+      "decision_timestamp": "2023-07-29T20:00:00+00:00",
+      "eligible_symbols": 3,
+      "adf_passed_symbols": 3,
+      "pairs_tested": 3,
+      "raw_eg_tests": 3,
+      "selected_pairs": 1,
+      "start": "2023-07-30 00:00:00+00:00",
+      "end_exclusive": "2023-08-29 00:00:00+00:00"
+    },
+    {
+      "decision_timestamp": "2023-08-28T20:00:00+00:00",
+      "eligible_symbols": 3,
+      "adf_passed_symbols": 1,
+      "pairs_tested": 0,
+      "raw_eg_tests": 0,
+      "selected_pairs": 0,
+      "start": "2023-08-29 00:00:00+00:00",
+      "end_exclusive": "2023-09-28 00:00:00+00:00"
+    },
+    {
+      "decision_timestamp": "2023-09-27T20:00:00+00:00",
+      "eligible_symbols": 3,
+      "adf_passed_symbols": 1,
+      "pairs_tested": 0,
+      "raw_eg_tests": 0,
+      "selected_pairs": 0,
+      "start": "2023-09-28 00:00:00+00:00",
+      "end_exclusive": "2023-10-22 00:00:00+00:00"
+    }
+  ],
+  "monthly_returns": {
+    "2023-06": 0.0,
+    "2023-07": 0.0,
+    "2023-08": 0.017341322899093292,
+    "2023-09": 0.0,
+    "2023-10": 0.0
+  }
+}
